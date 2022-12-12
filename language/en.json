@@ -5,57 +5,80 @@
 
     "heros": {
         "one": {
-            "delicious": "köstliche",
-            "recipes": "Rezepturen"
+            "top": "delicious",
+            "bottom": "recipes"
         },
         "two": {
-            "natural": "natürliche",
-            "spices": "Gewürze"
+            "top": "natural",
+            "bottom": "spices"
         }
     },
 
     "navbar": {
         "nav": {
             "home": {
-                "value": "Startseite",
+                "value": "Home",
                 "linkto": "home",
                 "external": false
             },
             "history": {
-                "value": "Geschichte",
+                "value": "History",
                 "linkto": "history",
                 "external": false
             },
             "menu": {
-                "value": "Menü",
+                "value": "Menu",
                 "linkto": "menu",
                 "external": true
             },
             "order": {
-                "value": "Bestellen",
+                "value": "Order",
                 "linkto": "order",
                 "external": false
             },
             "contact": {
-                "value": "Kontakt",
+                "value": "Contact",
                 "linkto": "contact",
                 "external": false
+            }
+        },
+        "language": {
+            "en": {
+                "value": "English",
+                "locale": "en"
+            },
+            "de": {
+                "value": "German",
+                "locale": "de"
             }
         }
     },
     "home": {
-        "welcome": "Willkommen zu"
+        "welcome": "Welcome back to"
     },
     "history": {
-        "findmore": "Erfahren Sie mehr über unsere",
-        "history": "Geschichte",
-        "text": "Hey"
+        "findmore": "learn more about our",
+        "history": "History",
+        "text": "Our Café \"Phoenix\" is located directly in the heart of Cologne. Cozy on the Rhine behind the Cologne Cathedral you have the perfect view and can enjoy their coffee"
     },
     "menu": {
-        "tasty": "leckere",
-        "menu": "Speisekarte",
-        "text": "Hey",
-        "button": "ganze Speisekarte"
+        "tasty": "tasty",
+        "menu": "menu",
+        "text": "You can talk for hours about our delicacies, but the most important is the coffee. Fresh and dried coffee beans, frothed with local milk.",
+        "button": "full menu"
+    },
+    "order": {
+        "order": "order",
+        "now": "now",
+        "text": "You can enjoy our delicious dishes not only on site, but also easily delivered to your home. Our delivery radius is up to 3 km."
+    },
+    "menupage": {
+        "hero": "Menu",
+        "cake": "Cake",
+        "breakfast": "Breakfast",
+        "waffel": "Waffles",
+        "coffee": "Coffee",
+        "drinks": "Drinks"
     }
     
 }
