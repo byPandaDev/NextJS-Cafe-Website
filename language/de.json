@@ -1,0 +1,84 @@
+{
+    "name": "Phoenix Café",
+    "namepartone": "Phoenix",
+    "nameparttwo": "Café",
+
+    "heros": {
+        "one": {
+            "top": "köstliche",
+            "bottom": "Rezepturen"
+        },
+        "two": {
+            "top": "natürliche",
+            "bottom": "Gewürze"
+        }
+    },
+
+    "navbar": {
+        "nav": {
+            "home": {
+                "value": "Startseite",
+                "linkto": "home",
+                "external": false
+            },
+            "history": {
+                "value": "Geschichte",
+                "linkto": "history",
+                "external": false
+            },
+            "menu": {
+                "value": "Menü",
+                "linkto": "menu",
+                "external": true
+            },
+            "order": {
+                "value": "Bestellen",
+                "linkto": "order",
+                "external": false
+            },
+            "contact": {
+                "value": "Kontakt",
+                "linkto": "contact",
+                "external": false
+            }
+        },
+        "language": {
+            "en": {
+                "value": "Englisch",
+                "locale": "en"
+            },
+            "de": {
+                "value": "Deutsch",
+                "locale": "de"
+            }
+        }
+    },
+    "home": {
+        "welcome": "Willkommen zu"
+    },
+    "history": {
+        "findmore": "Erfahren Sie mehr über unsere",
+        "history": "Geschichte",
+        "text": "Unser Café \"Phoenix\" befindet sich direkt im Herzen von Köln. Gemütlich am Rhein hinterm Kölner Dom haben Sie den perfekten Blick und können ihren Kaffee genießen"
+    },
+    "menu": {
+        "tasty": "leckere",
+        "menu": "Speisekarte",
+        "text": "Über unsere Köstlichkeiten kann man stundenlang reden, das wichtigste ist jedoch der Kaffee. Frische und getrocknete Kaffeebohen, aufgeschäumt mit Lokaler Milch",
+        "button": "ganze Speisekarte"
+    },
+    "order": {
+        "order": "bestellen sie noch",
+        "now": "Heute",
+        "text": "Unsere leckeren Gerichte können Sie nicht nur Vorort genießen, sonder auch ganz einfach nach Hause liefern lassen. Unser Lieferumkreis reicht bis zu 3 Km."
+    },
+    "menupage": {
+        "hero": "Menü",
+        "cake": "Kuchen",
+        "breakfast": "Frühstück",
+        "waffel": "Waffeln",
+        "coffee": "Cafe",
+        "drinks": "Getränke"
+    }
+    
+}

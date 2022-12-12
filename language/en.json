@@ -1,0 +1,61 @@
+{
+    "name": "Phoenix Café",
+    "namepartone": "Phoenix",
+    "nameparttwo": "Café",
+
+    "heros": {
+        "one": {
+            "delicious": "köstliche",
+            "recipes": "Rezepturen"
+        },
+        "two": {
+            "natural": "natürliche",
+            "spices": "Gewürze"
+        }
+    },
+
+    "navbar": {
+        "nav": {
+            "home": {
+                "value": "Startseite",
+                "linkto": "home",
+                "external": false
+            },
+            "history": {
+                "value": "Geschichte",
+                "linkto": "history",
+                "external": false
+            },
+            "menu": {
+                "value": "Menü",
+                "linkto": "menu",
+                "external": true
+            },
+            "order": {
+                "value": "Bestellen",
+                "linkto": "order",
+                "external": false
+            },
+            "contact": {
+                "value": "Kontakt",
+                "linkto": "contact",
+                "external": false
+            }
+        }
+    },
+    "home": {
+        "welcome": "Willkommen zu"
+    },
+    "history": {
+        "findmore": "Erfahren Sie mehr über unsere",
+        "history": "Geschichte",
+        "text": "Hey"
+    },
+    "menu": {
+        "tasty": "leckere",
+        "menu": "Speisekarte",
+        "text": "Hey",
+        "button": "ganze Speisekarte"
+    }
+    
+}
