@@ -8,13 +8,13 @@ const Order = ({lang}) => {
     return(
         <section className="container bg-white py-16" id="order">
             <div className="w-fit flex flex-col gap-12 mx-auto h-fit lg:flex-row">
-                <div className="h-4rem text-center flex flex-col justify-center items-center text-4xl">
+                <div className="h-4rem text-center flex flex-col justify-center items-center text-lg md:text-4xl">
                     <h2 className="p-0 h-fit">
                         <span className="text-beige block font-MarckScript font-bold">{lang.order.order}</span>
                         <span className="font-semibold">{lang.order.now}</span>
                     </h2>
                     <Image src={"/img/trenner-black.png"} width={400} height={200} alt="" className="my-4"/>
-                    <p className="text-lg w-55ch">
+                    <p className="text-sm md:text-lg md:w-55ch">
                         {lang.order.text}
                     </p>
                 </div>

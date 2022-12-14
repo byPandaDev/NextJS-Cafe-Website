@@ -27,13 +27,13 @@ const Menu = ({lang}) => {
                         />
                     </SlideRight>
                 </div>
-                <div className="h-4rem text-center flex flex-col justify-center items-center text-4xl">
+                <div className="h-4rem text-center flex flex-col justify-center items-center  text-lg md:text-4xl">
                     <h2 className="p-0 h-fit">
                         <span className="text-beige block font-MarckScript font-bold">{lang.menu.tasty}</span>
                         <span className="font-semibold">{lang.menu.menu}</span>
                     </h2>
                     <Image src={"/img/trenner-black.png"} width={400} height={200} alt="" className="my-4"/>
-                    <p className="text-lg w-55ch">
+                    <p className="text-sm md:text-lg md:w-55ch">
                         {lang.menu.text}
                     </p>
                     <Link href={"/menu"} locale={router.locale}

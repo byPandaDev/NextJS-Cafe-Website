@@ -8,17 +8,17 @@ const History = ({lang}) => {
     return(
         <section className="container bg-white py-16" id="history">
             <div className="w-fit flex flex-col gap-12 mx-auto h-fit lg:flex-row">
-                <div className="h-4rem text-center flex flex-col justify-center items-center text-4xl">
+                <div className="h-4rem text-center flex flex-col justify-center items-center text-lg md:text-4xl">
                     <h2 className="p-0 h-fit">
                         <span className="text-beige block font-MarckScript font-bold">{lang.history.findmore}</span>
                         <span className="font-semibold">{lang.history.history}</span>
                     </h2>
                     <Image src={"/img/trenner-black.png"} width={400} height={200} alt="" className="my-4"/>
-                    <p className="text-lg w-55ch">
+                    <p className="text-sm md:text-lg md:w-55ch">
                         {lang.history.text}
                     </p>
                 </div>
-                <div className="flex gap-12">
+                <div className="flex gap-12 flex-col md:flex-row mx-auto">
                     
                     <SlideLeft>
                         <Image src={"https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}

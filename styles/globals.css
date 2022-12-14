@@ -15,6 +15,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   height: 100%;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 a {

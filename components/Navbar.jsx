@@ -21,7 +21,7 @@ const Navbar = ({lang}) => {
 
     return (
         <div className={`fixed  w-full py-4 ${navScroll ? "text-black bg-white shadow-lg" : "text-white bg-black bg-opacity-50"}`}>
-            <div className="container text-lg flex justify-between">
+            <div className="container text-lg flex justify-between flex-col items-center md:flex-row">
                 <div className={`uppercase font-bold w-fit border-b-4 ${navScroll? "border-black" : "border-white"}`}>
                     <Link href={"/"}>
                         <span className="text-beige">{lang.namepartone}</span>
@@ -30,7 +30,7 @@ const Navbar = ({lang}) => {
                     </Link>
                 </div>
                 <div className="flex gap-4">
-                    <nav className="flex gap-4">
+                    <nav className="flex gap-2 md:gap-4 text-sm md:text-lg">
                         {Object.keys(lang.navbar.nav).map((key, i) => {
                             if(router.pathname === "/") {
                                 return (
@@ -53,7 +53,7 @@ const Navbar = ({lang}) => {
                             }
                         })}
                     </nav>
-                    <div className="relative">
+                    {<div className="relative text-sm">
                         <div
                         onMouseEnter={() => setOpenLangSelection(true)}
                         onMouseLeave={() => setOpenLangSelection(false)}
@@ -81,7 +81,7 @@ const Navbar = ({lang}) => {
                                 })}
                             </ul>
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
         </div>
